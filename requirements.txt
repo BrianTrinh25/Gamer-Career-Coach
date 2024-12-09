@@ -1,4 +1,7 @@
+os
 openai
 streamlit
+requests
 OpenAI
-streamlit_survey
+Image
+display
