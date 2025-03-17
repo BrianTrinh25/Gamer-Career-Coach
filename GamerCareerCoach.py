@@ -2,11 +2,12 @@ import os
 import streamlit as st 
 import requests
 import time
+import openai
 from openai import OpenAI
 from IPython.display import Image, display
 
 #my-api-key-here
-OpenAI.api_key = os.environ["OPENAI_API_KEY"]
+openai.api_key = os.environ["OPENAI_API_KEY"]
 client = OpenAI() 
 
 # create a wrapper function
